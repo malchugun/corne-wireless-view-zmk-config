@@ -29,14 +29,14 @@
                 lower_layer {
 // ---------------------------------------------------------------------------------
 // | TAB  |  !  |  @  |  #  |  $  |  %   |   |  ^  |  &  |  *  |  (  |  )  |   \   | 
-// | SHFT |  F1 |  F2 |  F3 |  F4 |  F5  |   |  -  |  =  |  `  |  [  |  ]  |  "|"  |
-// | CTRL |  F6 |  F7 |  F8 |  F9 |  F10 |   |  _  |  +  |  ~  |  {  |  }  |  ENT  |
+// | SHFT |  F1 |  F2 |  F3 |  F4 |  F5  |   |  -  |  +  |  `  |  [  |  ]  |  "|"  |
+// | CTRL |  F6 |  F7 |  F8 |  F9 |  F10 |   |  _  |  =  |  ~  |  {  |  }  |  ENT  |
 //                     | GUI |     | ESC |   | SPC |     | ALT |
                         label = "Lower";
                         bindings = <
    &kp TAB   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET  &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
-   &kp LSHFT &kp F1   &kp F2 &kp F3   &kp F4   &kp F5      &kp MINUS  &kp EQUAL &kp GRAVE       &kp LBKT &kp RBKT &kp PIPE
-   &kp LCTRL &kp F6   &kp F7 &kp F8   &kp F9   &kp F10     &kp UNDER  &kp PLUS  &kp TILDE       &kp LBRC &kp RBRC &kp RET
+   &kp LSHFT &kp F1   &kp F2 &kp F3   &kp F4   &kp F5      &kp MINUS  &kp PLUS  &kp GRAVE       &kp LBKT &kp RBKT &kp PIPE
+   &kp LCTRL &kp F6   &kp F7 &kp F8   &kp F9   &kp F10     &kp UNDER  &kp EQUAL &kp TILDE       &kp LBRC &kp RBRC &kp RET
                       &kp LGUI    &trans       &kp ESC     &kp SPACE  &trans   &kp RALT
                         >;
                 };
