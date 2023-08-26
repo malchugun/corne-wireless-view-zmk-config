@@ -52,7 +52,7 @@
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6     &kp N7     &kp N8     &kp N9    &kp N0  &kp F12
    &kp LSHFT  &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN &kp C_VOL_UP &kp K_MUTE     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &trans  &kp F11
    &kp LCTRL  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp C_PP   &kp C_PREV &kp C_NEXT &trans    &trans  &trans 
-                    	                  &kp LGUI     &trans       &kp ESC        &kp BT_CLR &trans     &kp RALT
+                    	                  &kp LGUI     &trans       &kp ESC        &bt BT_CLR &trans     &kp RALT
                         >;
                 };
         };
