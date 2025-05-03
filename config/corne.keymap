@@ -17,8 +17,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             flavor = "hold-preferred";
-            bindings = <&none>, <&bt BT_CLR>;
-            hold-trigger-on-release;
+            bindings = <&kp NUL>, <&bt BT_CLR>;
             hold-timeout-ms = <10000>; // 10 seconds hold for BT_CLR
         };
     };
